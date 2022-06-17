@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Simple web Development Template</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: right;
+			justify-content: right;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+		    height:40px;
+			width: 40px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+
+		.firstsection {
+			background-color: FloralWhite;
+			height: 500px;
+			background-image:url("rec.png");
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			
+		}
+
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			margin: auto;
+			height: 100%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+        /*This is the text styles,Give the color you like*/
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+			color:Tomato;
+		}
+        /*This is also the paragraph stylrs*/
+		.text-small {
+			font-size: 18px;
+			color:LightGrey;
+		}
+
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+       <ul class="nav-list">
+            <div class="logo">
+				<img src= "icon.jpg">
+			</div>
+       </ul>
+       <ul class="nav-list">
+       
+       </ul>
+		<ul class="nav-list">
+		     <li><a href="https://rvrjcce.ac.in/" target="_blank">About</a></li>
+		    <li><a href="https://www.freshersnow.com/placement-papers-download/" target="_blank">Previous Years Paper</a></li>
+			<li><a href="codlogin.php">Co-Ordinator Login</a></li>
+			<li><a href="studentlogin.php">Student Login</a></li>
+		</ul>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">RVR&JC Placement Management</h1>
+				<p class="text-small">
+					RVR&JC  is an engineering college in Guntur, in the Indian state of Andhra Pradesh. It offers graduate (Masters) and undergraduate education (Bachelors) courses in engineering and technology. It is located in the west suburban region of Guntur City,[1] India.[2][3]
+
+Established in 1985, RVR&JC is under the patronage of the Nagarjuna Education Society. Today eight educational institutions are functioning under the banner of the society, with RVR&JC as the flagship.
+
+The college is today one of the largest engineering institutions in South India. The college offers eight B.Tech degree courses, six M.Tech degree courses, MCA and MBA courses.
+
+The college is autonomous and affiliated to Acharya Nagarjuna University, Guntur. The institute attracts companies that take campus interviews for the students.[4]
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
